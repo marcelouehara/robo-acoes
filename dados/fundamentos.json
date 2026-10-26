@@ -1,0 +1,360 @@
+{
+ "gerado_em": "2026-10-26T17:18:48+00:00",
+ "fonte": "CVM dados abertos (DFP/ITR consolidados, FCA) + preço B3",
+ "preco_de": "2026-10-23",
+ "regras": "preço     0 < P/L <= 15\n  qualidade ROE >= 12%\n  risco     dívida líquida / EBITDA <= 3 (ou caixa líquido)   [não se aplica a financeiras]\n  momento   lucro 12m > 0 e maior que o de 1 ano antes (sensível a eventos não recorrentes)\nAprovada quando faz pelo menos 2/3 dos pontos possíveis (3/4, ou 2/3 nas financeiras).",
+ "empresas": {
+  "ITUB4": {
+   "cnpj": "60.872.504/0001-23",
+   "financeira": true,
+   "acoes_em_milhares": true,
+   "periodo": "2026-06-30",
+   "preco": 48.3,
+   "acoes": 11021872000,
+   "valor_mercado": 532356417599.99994,
+   "lucro_12m": 46828000000.0,
+   "lucro_12m_ano_anterior": 42845000000.0,
+   "indicadores": {
+    "p_l": 11.3683,
+    "p_vp": 2.4445,
+    "roe": 0.215,
+    "margem": null,
+    "div_ebitda": null,
+    "cresc_lucro": 0.093
+   },
+   "pilares": {
+    "preco": true,
+    "qualidade": true,
+    "momento": true
+   },
+   "pontos": 3,
+   "maximo": 3,
+   "aprovada": true
+  },
+  "PRIO3": {
+   "cnpj": "10.629.105/0001-68",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 73.8,
+   "acoes": 798178706,
+   "valor_mercado": 58905588502.799995,
+   "lucro_12m": 3868893000.0,
+   "lucro_12m_ano_anterior": 10589377000.0,
+   "indicadores": {
+    "p_l": 15.2254,
+    "p_vp": 2.0878,
+    "roe": 0.1371,
+    "margem": 0.1811,
+    "div_ebitda": 1.7416,
+    "cresc_lucro": -0.6346
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": true,
+    "momento": false,
+    "risco": true
+   },
+   "pontos": 2,
+   "maximo": 4,
+   "aprovada": false
+  },
+  "EQTL3": {
+   "cnpj": "03.220.438/0001-73",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 48.88,
+   "acoes": 1255031275,
+   "valor_mercado": 61345928722.0,
+   "lucro_12m": 958423000.0,
+   "lucro_12m_ano_anterior": 3653525000.0,
+   "indicadores": {
+    "p_l": 64.0072,
+    "p_vp": 2.348,
+    "roe": 0.0367,
+    "margem": 0.0175,
+    "div_ebitda": 4.7646,
+    "cresc_lucro": -0.7377
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": false,
+    "momento": false,
+    "risco": false
+   },
+   "pontos": 0,
+   "maximo": 4,
+   "aprovada": false
+  },
+  "BBSE3": {
+   "cnpj": "17.344.597/0001-94",
+   "financeira": true,
+   "periodo": "2026-06-30",
+   "preco": 43.68,
+   "acoes": 1941248544,
+   "valor_mercado": 84793736401.92,
+   "lucro_12m": 9189317000.0,
+   "lucro_12m_ano_anterior": 8917144000.0,
+   "indicadores": {
+    "p_l": 9.2274,
+    "p_vp": 7.7861,
+    "roe": 0.8438,
+    "margem": null,
+    "div_ebitda": null,
+    "cresc_lucro": 0.0305
+   },
+   "pilares": {
+    "preco": true,
+    "qualidade": true,
+    "momento": true
+   },
+   "pontos": 3,
+   "maximo": 3,
+   "aprovada": true
+  },
+  "ABEV3": {
+   "cnpj": "07.526.557/0001-00",
+   "financeira": false,
+   "acoes_em_milhares": true,
+   "periodo": "2026-06-30",
+   "preco": 16.68,
+   "acoes": 15452795000,
+   "valor_mercado": 257752620600.0,
+   "lucro_12m": 16246910000.0,
+   "lucro_12m_ano_anterior": 14752321000.0,
+   "indicadores": {
+    "p_l": 15.8647,
+    "p_vp": 2.9186,
+    "roe": 0.184,
+    "margem": 0.1841,
+    "div_ebitda": -0.5018,
+    "cresc_lucro": 0.1013
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": true,
+    "momento": true,
+    "risco": true
+   },
+   "pontos": 3,
+   "maximo": 4,
+   "aprovada": true
+  },
+  "B3SA3": {
+   "cnpj": "09.346.601/0001-25",
+   "financeira": true,
+   "periodo": "2026-06-30",
+   "preco": 23.65,
+   "acoes": 4998298548,
+   "valor_mercado": 118209760660.2,
+   "lucro_12m": 5329711000.0,
+   "lucro_12m_ano_anterior": 4814671000.0,
+   "indicadores": {
+    "p_l": 22.1794,
+    "p_vp": 6.3197,
+    "roe": 0.2849,
+    "margem": null,
+    "div_ebitda": null,
+    "cresc_lucro": 0.107
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": true,
+    "momento": true
+   },
+   "pontos": 2,
+   "maximo": 3,
+   "aprovada": true
+  },
+  "SIMH3": {
+   "cnpj": "07.415.333/0001-20",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 16.65,
+   "acoes": 583759291,
+   "valor_mercado": 9719592195.15,
+   "lucro_12m": -182352000.0,
+   "lucro_12m_ano_anterior": -381644000.0,
+   "indicadores": {
+    "p_l": null,
+    "p_vp": 1.6509,
+    "roe": -0.031,
+    "margem": -0.004,
+    "div_ebitda": 3.2194,
+    "cresc_lucro": null
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": false,
+    "momento": false,
+    "risco": false
+   },
+   "pontos": 0,
+   "maximo": 4,
+   "aprovada": false
+  },
+  "LJQQ3": {
+   "cnpj": "96.418.264/0218-02",
+   "financeira": false,
+   "acoes_em_milhares": true,
+   "periodo": "2026-06-30",
+   "preco": 3.05,
+   "acoes": 206917000,
+   "valor_mercado": 631096850.0,
+   "lucro_12m": -197697000.0,
+   "lucro_12m_ano_anterior": -74534000.0,
+   "indicadores": {
+    "p_l": null,
+    "p_vp": 2.1585,
+    "roe": -0.6762,
+    "margem": -0.0688,
+    "div_ebitda": -0.3258,
+    "cresc_lucro": null
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": false,
+    "momento": false,
+    "risco": true
+   },
+   "pontos": 1,
+   "maximo": 4,
+   "aprovada": false
+  },
+  "MOVI3": {
+   "cnpj": "21.314.559/0001-66",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 18.67,
+   "acoes": 401036278,
+   "valor_mercado": 7487347310.26,
+   "lucro_12m": -146063000.0,
+   "lucro_12m_ano_anterior": 54967000.0,
+   "indicadores": {
+    "p_l": null,
+    "p_vp": 1.9191,
+    "roe": -0.0374,
+    "margem": -0.0098,
+    "div_ebitda": 3.2671,
+    "cresc_lucro": -3.6573
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": false,
+    "momento": false,
+    "risco": false
+   },
+   "pontos": 0,
+   "maximo": 4,
+   "aprovada": false
+  },
+  "JSLG3": {
+   "cnpj": "52.548.435/0001-79",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 12.4,
+   "acoes": 285368917,
+   "valor_mercado": 3538574570.8,
+   "lucro_12m": -104482000.0,
+   "lucro_12m_ano_anterior": 119835000.0,
+   "indicadores": {
+    "p_l": null,
+    "p_vp": 2.9918,
+    "roe": -0.0883,
+    "margem": -0.0107,
+    "div_ebitda": 3.5256,
+    "cresc_lucro": -1.8719
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": false,
+    "momento": false,
+    "risco": false
+   },
+   "pontos": 0,
+   "maximo": 4,
+   "aprovada": false
+  },
+  "PGMN3": {
+   "cnpj": "06.626.253/0001-51",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 5.43,
+   "acoes": 720147635,
+   "valor_mercado": 3910401658.0499997,
+   "lucro_12m": 328407000.0,
+   "lucro_12m_ano_anterior": 162563000.0,
+   "indicadores": {
+    "p_l": 11.9072,
+    "p_vp": 1.1441,
+    "roe": 0.0961,
+    "margem": 0.021,
+    "div_ebitda": 0.9814,
+    "cresc_lucro": 1.0202
+   },
+   "pilares": {
+    "preco": true,
+    "qualidade": false,
+    "momento": true,
+    "risco": true
+   },
+   "pontos": 3,
+   "maximo": 4,
+   "aprovada": true
+  },
+  "ANIM3": {
+   "cnpj": "09.288.252/0001-32",
+   "financeira": false,
+   "periodo": "2026-06-30",
+   "preco": 5.04,
+   "acoes": 377860205,
+   "valor_mercado": 1904415433.2,
+   "lucro_12m": 153833000.0,
+   "lucro_12m_ano_anterior": 140562000.0,
+   "indicadores": {
+    "p_l": 12.3798,
+    "p_vp": 0.7878,
+    "roe": 0.0636,
+    "margem": 0.0371,
+    "div_ebitda": 2.8346,
+    "cresc_lucro": 0.0944
+   },
+   "pilares": {
+    "preco": true,
+    "qualidade": false,
+    "momento": true,
+    "risco": true
+   },
+   "pontos": 3,
+   "maximo": 4,
+   "aprovada": true
+  },
+  "ECOR3": {
+   "cnpj": "04.149.454/0001-80",
+   "financeira": false,
+   "acoes_em_milhares": true,
+   "periodo": "2026-06-30",
+   "preco": 13.15,
+   "acoes": 695621000,
+   "valor_mercado": 9147416150.0,
+   "lucro_12m": 546121000.0,
+   "lucro_12m_ano_anterior": 755265000.0,
+   "indicadores": {
+    "p_l": 16.7498,
+    "p_vp": 2.2314,
+    "roe": 0.1332,
+    "margem": 0.0459,
+    "div_ebitda": 4.1248,
+    "cresc_lucro": -0.2769
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": true,
+    "momento": false,
+    "risco": false
+   },
+   "pontos": 1,
+   "maximo": 4,
+   "aprovada": false
+  }
+ }
+}
