@@ -5,9 +5,7 @@
     "EQTL3",
     "BBSE3",
     "ABEV3",
-    "B3SA3"
-  ],
-  "monitorar": [
+    "B3SA3",
     "SIMH3",
     "LJQQ3",
     "MOVI3",
@@ -20,6 +18,7 @@
     "BPAC11",
     "BBAS3"
   ],
+  "monitorar": [],
   "financeiras": [
     "ITUB4",
     "BBSE3",
