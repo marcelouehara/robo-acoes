@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-26T17:27:31+00:00",
+ "gerado_em": "2026-10-26T17:30:32+00:00",
  "fonte": "CVM dados abertos (DFP/ITR consolidados, FCA) + preço B3",
  "preco_de": "2026-10-23",
  "regras": "preço     0 < P/L <= 15\n  qualidade ROE >= 12%\n  risco     dívida líquida / EBITDA <= 3 (ou caixa líquido)   [não se aplica a financeiras]\n  momento   lucro 12m > 0 e maior que o de 1 ano antes (sensível a eventos não recorrentes)\nAprovada quando faz pelo menos 2/3 dos pontos possíveis (3/4, ou 2/3 nas financeiras).",
@@ -354,6 +354,58 @@
    },
    "pontos": 1,
    "maximo": 4,
+   "aprovada": false
+  },
+  "BPAC11": {
+   "cnpj": "30.306.294/0001-45",
+   "financeira": true,
+   "periodo": "2026-06-30",
+   "preco": 79.82,
+   "acoes": 3862551555.3333335,
+   "valor_mercado": 308308865146.70667,
+   "lucro_12m": 18458126000.0,
+   "lucro_12m_ano_anterior": 12605951000.0,
+   "indicadores": {
+    "p_l": 16.7032,
+    "p_vp": 3.7086,
+    "roe": 0.222,
+    "margem": null,
+    "div_ebitda": null,
+    "cresc_lucro": 0.4642
+   },
+   "pilares": {
+    "preco": false,
+    "qualidade": true,
+    "momento": true
+   },
+   "pontos": 2,
+   "maximo": 3,
+   "aprovada": true
+  },
+  "BBAS3": {
+   "cnpj": "00.000.000/0001-91",
+   "financeira": true,
+   "periodo": "2026-06-30",
+   "preco": 24.72,
+   "acoes": 5708971478,
+   "valor_mercado": 141125774936.16,
+   "lucro_12m": 12272045000.0,
+   "lucro_12m_ano_anterior": 15853268000.0,
+   "indicadores": {
+    "p_l": 11.4998,
+    "p_vp": 0.7584,
+    "roe": 0.066,
+    "margem": null,
+    "div_ebitda": null,
+    "cresc_lucro": -0.2259
+   },
+   "pilares": {
+    "preco": true,
+    "qualidade": false,
+    "momento": false
+   },
+   "pontos": 1,
+   "maximo": 3,
    "aprovada": false
   }
  }

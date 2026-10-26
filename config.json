@@ -1,10 +1,50 @@
 {
-  "carteira": ["ITUB4", "PRIO3", "EQTL3", "BBSE3", "ABEV3", "B3SA3"],
-  "monitorar": ["SIMH3", "LJQQ3", "MOVI3", "JSLG3", "PGMN3", "ANIM3", "ECOR3", "XPBR31", "HIGH11"],
-  "financeiras": ["ITUB4", "BBSE3", "B3SA3"],
-  "sem_balanco": ["XPBR31", "HIGH11"],
+  "carteira": [
+    "ITUB4",
+    "PRIO3",
+    "EQTL3",
+    "BBSE3",
+    "ABEV3",
+    "B3SA3"
+  ],
+  "monitorar": [
+    "SIMH3",
+    "LJQQ3",
+    "MOVI3",
+    "JSLG3",
+    "PGMN3",
+    "ANIM3",
+    "ECOR3",
+    "XPBR31",
+    "HIGH11",
+    "BPAC11",
+    "BBAS3"
+  ],
+  "financeiras": [
+    "ITUB4",
+    "BBSE3",
+    "B3SA3",
+    "BPAC11",
+    "BBAS3"
+  ],
+  "sem_balanco": [
+    "XPBR31",
+    "HIGH11"
+  ],
   "ajustes_preco": {
-    "SIMH3": [["2026-02-18", 2.0, "grupamento 2:1"]]
+    "SIMH3": [
+      [
+        "2026-02-18",
+        2.0,
+        "grupamento 2:1"
+      ]
+    ]
   },
-  "pregoes_no_historico": 320
+  "pregoes_no_historico": 320,
+  "acoes_por_unit": {
+    "BPAC11": 3
+  },
+  "cnpj_manual": {
+    "BPAC11": "30.306.294/0001-45"
+  }
 }

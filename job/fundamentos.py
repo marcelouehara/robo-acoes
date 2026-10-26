@@ -154,7 +154,7 @@ def main():
     hoje = dt.date.today()
     ano = hoje.year
     # ticker -> CNPJ pelo FCA mais recente
-    mapa = {}
+    mapa = dict(CFG.get('cnpj_manual', {}))   # casos em que o FCA vem sem o código (ex.: BTG declara a unit como 000000)
     for a in (ano, ano - 1):
         z = baixar(f'{BASE}/FCA/DADOS/fca_cia_aberta_{a}.zip')
         for r in linhas(z, f'fca_cia_aberta_valor_mobiliario_{a}.csv'):
@@ -201,9 +201,12 @@ def main():
         pl_ = b and b['pl']
         # A CVM não informa a unidade da quantidade de ações: algumas empresas declaram em milhares.
         # Se o P/VP resultante for absurdo (< 0,05), a quantidade está em milhares.
-        if preco and qt and pl_ and pl_ > 0 and preco * qt / pl_ < 0.05:
+        if preco and qt and pl_ and pl_ > 0 and preco * qt / CFG.get('acoes_por_unit', {}).get(t, 1) / pl_ < 0.05:
             qt *= 1000
             r['acoes_em_milhares'] = True
+        # Units (ex.: BPAC11 = 1 ON + 2 PN): o preço é da unit, então divide a quantidade de ações por ações/unit
+        if qt and t in CFG.get('acoes_por_unit', {}):
+            qt = qt / CFG['acoes_por_unit'][t]
         mcap = preco * qt if preco and qt else None
         ind = {
             'p_l': mcap / lucro if mcap and lucro and lucro > 0 else None,
