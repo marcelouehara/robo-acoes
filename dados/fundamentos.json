@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-30T06:23:14+00:00",
+ "gerado_em": "2026-10-30T17:01:08+00:00",
  "fonte": "CVM dados abertos (DFP/ITR consolidados, FCA) + preço B3",
  "preco_de": "2026-10-29",
  "regras": "preço     0 < P/L <= 15\n  qualidade ROE >= 12%\n  risco     dívida líquida / EBITDA <= 3 (ou caixa líquido)   [não se aplica a financeiras]\n  momento   lucro 12m > 0 e maior que o de 1 ano antes (sensível a eventos não recorrentes)\nAprovada quando faz pelo menos 2/3 dos pontos possíveis (3/4, ou 2/3 nas financeiras).",
