@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-31T16:01:03+00:00",
+ "gerado_em": "2026-11-03T07:12:55+00:00",
  "fonte": "CVM dados abertos (DFP/ITR consolidados, FCA) + preço B3",
  "preco_de": "2026-10-30",
  "regras": "preço     0 < P/L <= 15\n  qualidade ROE >= 12%\n  risco     dívida líquida / EBITDA <= 3 (ou caixa líquido)   [não se aplica a financeiras]\n  momento   lucro 12m > 0 e maior que o de 1 ano antes (sensível a eventos não recorrentes)\nAprovada quando faz pelo menos 2/3 dos pontos possíveis (3/4, ou 2/3 nas financeiras).",
@@ -115,27 +115,27 @@
    "cnpj": "07.526.557/0001-00",
    "financeira": false,
    "acoes_em_milhares": true,
-   "periodo": "2026-06-30",
+   "periodo": "2026-09-30",
    "preco": 14.6,
-   "acoes": 15452795000,
-   "valor_mercado": 225610807000.0,
-   "lucro_12m": 16246910000.0,
-   "lucro_12m_ano_anterior": 14752321000.0,
+   "acoes": 15416487000,
+   "valor_mercado": 225080710200.0,
+   "lucro_12m": 15747175000.0,
+   "lucro_12m_ano_anterior": 16037176000.0,
    "indicadores": {
-    "p_l": 13.8864,
-    "p_vp": 2.5547,
-    "roe": 0.184,
-    "margem": 0.1841,
-    "div_ebitda": -0.5018,
-    "cresc_lucro": 0.1013
+    "p_l": 14.2934,
+    "p_vp": 2.4763,
+    "roe": 0.1732,
+    "margem": 0.1769,
+    "div_ebitda": -0.6393,
+    "cresc_lucro": -0.0181
    },
    "pilares": {
     "preco": true,
     "qualidade": true,
-    "momento": true,
+    "momento": false,
     "risco": true
    },
-   "pontos": 4,
+   "pontos": 3,
    "maximo": 4,
    "aprovada": true
   },
@@ -223,19 +223,19 @@
   "MOVI3": {
    "cnpj": "21.314.559/0001-66",
    "financeira": false,
-   "periodo": "2026-06-30",
+   "periodo": "2026-09-30",
    "preco": 5.61,
-   "acoes": 401036278,
-   "valor_mercado": 2249813519.58,
-   "lucro_12m": -146063000.0,
-   "lucro_12m_ano_anterior": 54967000.0,
+   "acoes": 423965629,
+   "valor_mercado": 2378447178.69,
+   "lucro_12m": 0.0,
+   "lucro_12m_ano_anterior": -169320000.0,
    "indicadores": {
     "p_l": null,
-    "p_vp": 0.5767,
-    "roe": -0.0374,
-    "margem": -0.0098,
-    "div_ebitda": 3.2671,
-    "cresc_lucro": -3.6573
+    "p_vp": 0.5676,
+    "roe": 0.0,
+    "margem": 0.0,
+    "div_ebitda": 3.1321,
+    "cresc_lucro": null
    },
    "pilares": {
     "preco": false,
@@ -250,19 +250,19 @@
   "JSLG3": {
    "cnpj": "52.548.435/0001-79",
    "financeira": false,
-   "periodo": "2026-06-30",
+   "periodo": "2026-09-30",
    "preco": 5.44,
    "acoes": 285368917,
    "valor_mercado": 1552406908.48,
-   "lucro_12m": -104482000.0,
-   "lucro_12m_ano_anterior": 119835000.0,
+   "lucro_12m": -98070000.0,
+   "lucro_12m_ano_anterior": 94104000.0,
    "indicadores": {
     "p_l": null,
-    "p_vp": 1.3125,
-    "roe": -0.0883,
-    "margem": -0.0107,
-    "div_ebitda": 3.5256,
-    "cresc_lucro": -1.8719
+    "p_vp": 1.2848,
+    "roe": -0.0812,
+    "margem": -0.0099,
+    "div_ebitda": 3.463,
+    "cresc_lucro": -2.0421
    },
    "pilares": {
     "preco": false,
